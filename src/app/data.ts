@@ -1,0 +1,52 @@
+export const FAKE_DATA = [
+    { id: 1, img: '../../assets/logo/view.jpg', title: 'Amazing View' },
+    { id: 2, img: '../../assets/logo/cabin.jpg', title: 'Cabins' },
+    { id: 3, img: '../../assets/logo/beach.jpg', title: 'Beach' },
+    { id: 4, img: '../../assets/logo/contryside.jpg', title: 'Countryside' },
+    { id: 5, img: '../../assets/logo/cave.jpg', title: 'Caves' },
+    { id: 6, img: '../../assets/logo/car.jpg', title: 'Shepherd huts' },
+    { id: 7, img: '../../assets/logo/piano.jpg', title: 'Grand pianos' },
+    { id: 8, img: '../../assets/logo/historical_home.jpg', title: 'Historical homes' },
+    { id: 9, img: '../../assets/logo/Ryokan.jpg', title: 'Ryokans'},
+    { id: 10, img: '../../assets/logo/nationalpark.jpg', title: 'National Park'},
+  ];
+
+export const FAKE_PLACE = [
+  { id: 1, img: '../../assets/uploads/1.jpg', title: '한옥스테이 “화응(花應)”', address: 'Entire home in Wansan-gu, Jeonju-si, South Korea', price: 45 },
+  { id: 2, img: '../../assets/uploads/2.jpg', title: '레트로 감성카라반 에어스트림, 비치보이스_Boy21', address: 'Camper/RV in Aewol-eup, Cheju, South Korea', price: 35 },
+  { id: 3, img: '../../assets/uploads/3.jpg', title: 'Enjoy historic Valencia and close to the beach', address: 'Room in Valencia, Spain', price: 25 },
+  { id: 4, img: '../../assets/uploads/4.jpg', title: 'Noble room into the historical Torino', address: 'Room in Torino, Italy', price: 33 },
+  { id: 5, img: '../../assets/uploads/5.jpg', title: 'Enjoy historic Valencia and close to the beach.', address: 'Room in Valencia, Spain', price: 100 },
+  { id: 6, img: '../../assets/uploads/6.jpg', title: 'Mortlake', address: 'Room in Greater London, United Kingdom', price: 120 },
+  { id: 7, img: '../../assets/uploads/7.jpg', title: '1 chambre dans superbe appartement Lyon presquile', address: 'Room in Lyon, France', price: 75 },
+  { id: 8, img: '../../assets/uploads/8.jpg', title: 'GGD Art house -wifi-air conditioning', address: 'Room in Palermo, Italy', price: 200 },
+  { id: 9, img: '../../assets/uploads/9.jpg', title: '꽃담원(꽃담아카데미)', address: 'Dome in Cheomdangwahak-ro, Jeongeup-si, South Korea', price: 233 },
+  { id: 10, img: '../../assets/uploads/16.jpg', title: 'Nordic A villa , private pool', address: 'Entire home in Silang, Philippines', price: 245 },
+  { id: 11, img: '../../assets/uploads/11.jpg', title: 'Casauary Tiny House', address: 'Tiny home in Talisay, Philippines', price: 300 },
+  { id: 12, img: '../../assets/uploads/12.jpg', title: 'Natur Steinhaus zu vermieten', address: 'Entire home in Siquijor, Philippines', price: 150 },
+  { id: 13, img: '../../assets/uploads/13.jpg', title: 'Experience&Enjoy MountainLake TinyHouse Glamping!', address: 'Tiny home in Cavinti, Philippines', price: 140 },
+  { id: 14, img: '../../assets/uploads/14.jpg', title: '@墾丁沛那海<雙人獨棟包棟泳池Villa>蜜月-結婚週年-特殊紀念日-可烤肉.浴缸+家庭劇院-秘密藍', address: 'Farm stay in Hengchun Township, Taiwan', price: 250 },
+  { id: 15, img: '../../assets/uploads/15.jpg', title: 'p.p. hill & house', address: 'Tiny home in Chang Klang, Thailand', price: 300 },
+]
+
+export const FAKE_TITLE = [
+  { id: 1, title: 'Amazing View', details: 'Chalet rentals'},
+  { id: 2, title: 'Benalmádene', details: 'Apartment rentals'},
+  { id: 3, title: 'Marbella', details: 'Apartment rentals'},
+  { id: 4, title: 'Mijas', details: 'Apartment rentals'},
+  { id: 5, title: 'Prescott', details: 'Pet-friendly rentals'},
+  { id: 6, title: 'Scottsdale', details: 'Rentals with pools'},
+  { id: 7, title: 'Tucson', details: 'Rentals with pools'},
+  { id: 8, title: 'Jasper', details: 'Vacation rentals'},
+  { id: 9, title: 'Amazing View', details: 'Vacation rentals'},
+  { id: 10, title: 'Mountains View', details: 'House rentals'},
+  { id: 11, title: 'Devonport', details: 'Vacation rentals'},
+  { id: 12, title: 'Mallacoota', details: 'Pet-friendly rentals'},
+  { id: 13, title: 'Ibiza', details: 'Apartment rentals'},
+  { id: 14, title: 'Anaheim', details: 'Vacation rentals'},
+  { id: 15, title: 'Monterey', details: 'Cabin rentals'},
+  { id: 16, title: 'Paso Robles', details: 'Vacation rentals'},
+  { id: 17, title: 'Santa Barbara', details: 'Vacation rentals'},
+  { id: 18, title: 'Sonoma', details: 'Cabin rentals'},
+]
+  

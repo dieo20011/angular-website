@@ -1,0 +1,106 @@
+<header
+  class="p-4 flex justify-between border-b border-gray-300"
+  [class.fixedd]="isHeaderFixed"
+>
+  <div class="flex items-center gap-1">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="40"
+      height="40"
+      viewBox="0 0 24 24"
+      style="fill: #ff385c; transform: ; msfilter: "
+    >
+      <path
+        d="M6 3h2v2H6zm2 16h3v2H8zm8-16h2v2h-2zm-3 16h3v2h-3zm7-8V9h-2V7h-2V5h-2v2h-4V5H8v2H6v2H4v2H2v8h2v-4h2v4h2v-3h8v3h2v-4h2v4h2v-8zm-10 1H8V9h2zm6 0h-2V9h2z"
+      ></path>
+    </svg>
+    <p class="font-bold text-xl">Mewtwo</p>
+  </div>
+  <div
+    class="flex rounded-full border border-gray-300 gap-4 items-center justify-center px-4 shadow-md shadow-gray-300 hover:scale-110 transition-transform duration-700 ease-in-out"
+  >
+    <div class="flex">
+      <div class="flex text-center px-2 font-medium cursor-pointer">
+        <span>Anywhere</span>
+      </div>
+      <div class="border-l border-gray-300"></div>
+      <div class="flex text-center px-2 font-medium cursor-pointer">
+        <span>Any weeks</span>
+      </div>
+      <div class="border-l border-gray-300"></div>
+      <div class="flex text-center px-2 cursor-pointer">
+        <span class="mr-2 font-normal text-gray-500">Add guest</span>
+        <div class="bg-red-500 rounded-full items-center flex p-2">
+          <button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              style="fill: rgba(255, 255, 255, 1); transform: ; msfilter: "
+            >
+              <path
+                d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex items-center p-2 px-4 gap-2">
+    <div
+      class="p-2 rounded-full flex hover:scale-110 transition-transform duration-700 ease-in-out cursor-pointer hover:bg-gray-100"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 16 16"
+        aria-hidden="true"
+        role="presentation"
+        focusable="false"
+        style="display: block; height: 16px; width: 16px; fill: currentcolor"
+      >
+        <path
+          d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z"
+        ></path>
+      </svg>
+    </div>
+    <div
+      class="p-2 bg-white gap-2 border border-gray-400 rounded-2xl text-center flex items-center gap-1 cursor-pointer hover:scale-110 transition-transform duration-700 ease-in-out"
+    >
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+          aria-hidden="true"
+          role="presentation"
+          focusable="false"
+          style="
+            display: block;
+            fill: none;
+            height: 12px;
+            width: 12px;
+            stroke: currentcolor;
+            stroke-width: 3;
+            overflow: visible;
+          "
+        >
+          <g fill="none"><path d="M2 16h28M2 24h28M2 8h28"></path></g>
+        </svg>
+      </button>
+      <button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style="fill: rgba(128, 128, 128, 1); transform: ; msfilter: "
+        >
+          <path
+            d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z"
+          ></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>

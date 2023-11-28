@@ -1,0 +1,62 @@
+/* Custom Toggle Styles */
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Hide default checkbox */
+.hidden-checkbox {
+  display: none;
+}
+
+/* Toggle Label Style */
+.toggle-label {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+/* Toggle Circle */
+.toggle-label::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+/* Change Toggle Appearance When Checked */
+.hidden-checkbox:checked + .toggle-label {
+  background-color: #333;
+}
+
+.hidden-checkbox:checked + .toggle-label::after {
+  transform: translateX(10px);
+}
+
+/* Toggle Text Style */
+.toggle-text {
+  margin-left: 10px;
+  color: #333;
+}
+.btn-next {
+  position: absolute;
+  right: 50px;
+}
+
+.fixed {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Giá trị z-index mong muốn */
+}
