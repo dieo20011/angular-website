@@ -2,7 +2,7 @@
   class="p-4 flex justify-between border-b border-gray-300"
   [class.fixedd]="isHeaderFixed"
 >
-  <div class="flex items-center gap-1">
+  <div class="flex items-center gap-1 max-[639px]:hidden">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="40"
@@ -17,34 +17,32 @@
     <p class="font-bold text-xl">Mewtwo</p>
   </div>
   <div
-    class="flex rounded-full border border-gray-300 gap-4 items-center justify-center px-4 shadow-md shadow-gray-300 hover:scale-110 transition-transform duration-700 ease-in-out"
+    class="flex max-[680px]:w-[90%] relative rounded-full border border-gray-300 gap-4 items-center justify-center px-4 shadow-md shadow-gray-300 hover:scale-110 transition-transform duration-700 ease-in-out"
   >
-    <div class="flex">
-      <div class="flex text-center px-2 font-medium cursor-pointer">
-        <span>Anywhere</span>
+    <div class="flex items-center">
+      <div class="flex text-center px-2 font-medium cursor-pointer border-r border-gray-200 max-[680px]:border-none max-[680px]:absolute max-[680px]:top-1/4 max-[680px]:translate-y-[-4px] max-[680px]:left-20">
+        <span class="max-[680px]:text-xs ">Anywhere</span>
       </div>
-      <div class="border-l border-gray-300"></div>
-      <div class="flex text-center px-2 font-medium cursor-pointer">
-        <span>Any weeks</span>
+      <div class="flex text-center px-2 font-medium cursor-pointer border-r border-gray-200 max-[680px]:border-none   max-[680px]:absolute max-[680px]:bottom-1/4 max-[680px]:left-20">
+        <span class="max-[680px]:text-xs font-light">Any weeks</span>
       </div>
-      <div class="border-l border-gray-300"></div>
-      <div class="flex text-center px-2 cursor-pointer">
-        <span class="mr-2 font-normal text-gray-500">Add guest</span>
-        <div class="bg-red-500 rounded-full items-center flex p-2">
-          <button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="12"
-              height="12"
-              viewBox="0 0 24 24"
-              style="fill: rgba(255, 255, 255, 1); transform: ; msfilter: "
-            >
-              <path
-                d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
-              ></path>
-            </svg>
-          </button>
-        </div>
+      <div class="flex text-center items-center px-2 cursor-pointer  max-[680px]:absolute max-[680px]:bottom-1/4 max-[680px]:left-21">
+        <span class="max-[680px]:text-xs selection:mr-2 font-normal text-gray-500 ">Add guest</span>
+      </div>
+      <div class="bg-red-500 max-[680px]:absolute rounded-full items-center flex p-2 max-[680px]:top-1/2 max-[680px]:-translate-y-1/2 max-[680px]:left-5 ">
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+            viewBox="0 0 24 24"
+            style="fill: rgba(255, 255, 255, 1); transform: ; msfilter: "
+          >
+            <path
+              d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+            ></path>
+          </svg>
+        </button>
       </div>
     </div>
   </div>

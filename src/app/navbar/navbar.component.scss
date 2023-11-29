@@ -60,3 +60,7 @@
   right: 0;
   z-index: 1000; /* Giá trị z-index mong muốn */
 }
+#navbar::-webkit-scrollbar {
+  display: none;
+}
+

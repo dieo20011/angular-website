@@ -7,3 +7,6 @@ ul{
 ul:hover{
     text-decoration: underline;
 }
+#navbar::-webkit-scrollbar {
+    display: none;
+  }
