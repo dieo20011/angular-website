@@ -1,8 +1,8 @@
   <nav class="p-2 px-8 flex gap-1 justify-between border-b border-gray-200">
-    <div class="max-[639px]:w-full overflow-x-auto lg:flex lg:w-[70%] sm:w-full md:w-full flex-1 mt-2 no-scrollbar md:flex flex-row"  id="navbar">
-      <div class="max-[639px]:flex md:flex sm:flex md:w-full  space-x-4 mt-2 lg:flex">
+    <div class="max-[639px]:w-full overflow-x-auto lg:flex lg:w-full gap-0 sm:w-full md:w-full flex-1 mt-2 no-scrollbar md:flex flex-row"  id="navbar">
+      <div class="max-[639px]:flex md:flex sm:flex md:w-full space-x-4 mt-2 lg:flex">
         <div *ngFor="let item of listItem"
-             class="cursor-pointer flex-shrink-0 min-w-[10%] flex relative flex-col opacity-50 hover:opacity-100 font-bold hover:scale-110 transition-transform duration-700 ease-in-out sm:flex gap-1 items-center">
+             class="cursor-pointer flex-shrink-0 min-w-[10%] flex relative flex-col opacity-50 hover:opacity-100 font-bold hover:scale-110 transition-transform duration-700 ease-in-out sm:flex items-center">
           <div class="items-center flex justify-center ">
             <img [src]="item.img" width="24" height="24"/>
           </div>
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="flex items-center gap-4  max-[639px]:hidden sm:hidden lg:flex">
-      <div class="rounded-xl flex items-center gap-1 bg-white border border-gray-300 p-2">
+      <div class="rounded-xl py-4 flex items-center gap-1 bg-white border border-gray-300 p-2">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
           style="display:block;fill:none;height:16px;width:16px;stroke:currentColor;stroke-width:3;overflow:visible"
           aria-hidden="true" role="presentation" focusable="false">
@@ -21,7 +21,7 @@
         </svg>
         <button class="font-medium">Filters</button>
       </div>
-      <div class="toggle-container rounded-xl flex items-center bg-white border border-gray-300 p-2">
+      <div class="toggle-container py-4 rounded-xl flex items-center bg-white border border-gray-300 p-2">
         <span class="toggle-text mr-2 font-medium">Display total</span>
         <input type="checkbox" id="toggle" class="hidden-checkbox">
         <label for="toggle" class="toggle-label"></label>

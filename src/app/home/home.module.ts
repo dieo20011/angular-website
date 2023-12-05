@@ -7,6 +7,9 @@ import { HomeRoutingModule } from './home.routing.module';
 import { HomeComponent } from './home.component';
 import { MainComponent } from '../main/main.component';
 import { FooterComponent } from '../footer/footer.component';
+import { RouterLink, RouterLinkActive } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,15 @@ import { FooterComponent } from '../footer/footer.component';
     NavbarComponent,
     HeaderComponent,
     MainComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    RouterLink,
+    RouterLinkActive,
+    ReactiveFormsModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: []
